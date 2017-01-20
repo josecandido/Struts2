@@ -1,3 +1,3 @@
 Struts2 con MySQL
 
-Crear la Bas de Datos amazon e importar el archivo amazon.sql
+Crear la Base de Datos amazon e importar el archivo amazon.sql
