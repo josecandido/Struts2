@@ -1,0 +1,15 @@
+<Context path="/1845_examen_struts" reloadable="true"
+docBase="C:\espacio\1845_examen_struts"
+workDir="C:\espacio\1845_examen_struts\work">
+ <Resource name="jdbc_struts2_MySQL" auth="Container"
+type="javax.sql.DataSource"
+username="root"
+password=""
+driverClassName="com.mysql.jdbc.Driver"
+url="jdbc:mysql://localhost:3306/amazon"
+maxActive="20"
+maxIdle="10"
+validationQuery="SELECT 1"
+/> 
+
+</Context>

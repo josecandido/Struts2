@@ -1,0 +1,21 @@
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="cliente.identificador">
+    	<field-validator type="requiredstring">
+            <message>El campo identificador es obligatorio</message>
+        </field-validator>
+    	<field-validator type="stringlength">
+    		<param name="minLength">4</param>
+    		<param name="maxLength">10</param>
+            <message>El campo identificador debe tener entre 4 y 10 caracteres</message>
+        </field-validator>
+    </field>
+    <field name="cliente.contrasena">
+    	<field-validator type="requiredstring">
+            <message>El campo contraseña es obligatorio</message>
+        </field-validator>
+    </field>
+</validators>
